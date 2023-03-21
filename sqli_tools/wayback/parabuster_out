@@ -1,0 +1,842 @@
+┌──(kali㉿kali)-[~/…/graduation_project/sqli/tmp/parabuster]
+└─$ for i in $(cat ../testphp.vulnweb.com/list_of_endpoints );do ./main find -w ../burp-parameter-names.txt -u http://testphp.vulnweb.com/$i                   2 ⨯ 1 ⚙
+done;
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [-] No parameters found !! 
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [-] No parameters found !! 
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: artist (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:artist 
+                                                                                                                                                                       
+(GET):artist
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [-] No parameters found !! 
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [-] No parameters found !! 
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [name submit text searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [+] Found Parameter: text (POST) (body changed) 
+ [+] Found Parameter: text (POST) (body changed) 
+ [!] Found 2 parameters: POST:text, POST:text 
+                                                                                                                                                                       
+(POST):text, text
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+processing chunk 10 of 52 [ERROR] Post "http://testphp.vulnweb.com/AJAX/index.php": EOF 
+processing chunk 11 of 52 [ERROR] Post "http://testphp.vulnweb.com/AJAX/index.php": EOF 
+processing chunk 12 of 52 [ERROR] Post "http://testphp.vulnweb.com/AJAX/index.php": dial tcp 44.228.249.3:80: connect: connection refused 
+processing chunk 13 of 52 [ERROR] Post "http://testphp.vulnweb.com/AJAX/index.php": dial tcp 44.228.249.3:80: connect: connection refused 
+processing chunk 14 of 52 [ERROR] Post "http://testphp.vulnweb.com/AJAX/index.php": dial tcp 44.228.249.3:80: connect: connection refused 
+processing chunk 15 of 52 [ERROR] Post "http://testphp.vulnweb.com/AJAX/index.php": dial tcp 44.228.249.3:80: connect: connection refused 
+processing chunk 16 of 52 [ERROR] Post "http://testphp.vulnweb.com/AJAX/index.php": dial tcp 44.228.249.3:80: connect: connection refused 
+processing chunk 17 of 52 [ERROR] Post "http://testphp.vulnweb.com/AJAX/index.php": dial tcp 44.228.249.3:80: connect: connection refused 
+processing chunk 18 of 52 [ERROR] Post "http://testphp.vulnweb.com/AJAX/index.php": dial tcp 44.228.249.3:80: connect: connection refused 
+processing chunk 19 of 52 [ERROR] Post "http://testphp.vulnweb.com/AJAX/index.php": dial tcp 44.228.249.3:80: connect: connection refused 
+
+ [-] No parameters found !! 
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [uname pass searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [-] No parameters found !! 
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [-] No parameters found !! 
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [-] No parameters found !! 
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [-] No parameters found !! 
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: cat (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:cat 
+                                                                                                                                                                       
+(GET):cat
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: cat (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:cat 
+                                                                                                                                                                       
+(GET):cat
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: cat (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:cat 
+                                                                                                                                                                       
+(GET):cat
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: cat (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:cat 
+                                                                                                                                                                       
+(GET):cat
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: artist (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:artist 
+                                                                                                                                                                       
+(GET):artist
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: artist (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:artist 
+                                                                                                                                                                       
+(GET):artist
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: artist (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:artist 
+                                                                                                                                                                       
+(GET):artist
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [-] No parameters found !! 
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [-] No parameters found !! 
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [uuname upass upass2 urname ucc uemail uphone signup uaddress searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [-] No parameters found !! 
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [price addcart searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: pic (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:pic 
+                                                                                                                                                                       
+(GET):pic
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: file (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:file 
+                                                                                                                                                                       
+(GET):file
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [price addcart searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: pic (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:pic 
+                                                                                                                                                                       
+(GET):pic
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: file (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:file 
+                                                                                                                                                                       
+(GET):file
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [price addcart searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: pic (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:pic 
+                                                                                                                                                                       
+(GET):pic
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: file (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:file 
+                                                                                                                                                                       
+(GET):file
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [price addcart searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: pic (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:pic 
+                                                                                                                                                                       
+(GET):pic
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+ [+] Found Parameter: file (GET) (body changed) 
+
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:file 
+                                                                                                                                                                       
+(GET):file
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [price addcart searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: pic (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:pic 
+                                                                                                                                                                       
+(GET):pic
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: file (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:file 
+                                                                                                                                                                       
+(GET):file
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [price addcart searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: pic (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:pic 
+                                                                                                                                                                       
+(GET):pic
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: file (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:file 
+                                                                                                                                                                       
+(GET):file
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [price addcart searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: pic (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:pic 
+                                                                                                                                                                       
+(GET):pic
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: file (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 1 parameters: GET:file 
+                                                                                                                                                                       
+(GET):file
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: artist (GET) (body changed) 
+ [+] Found Parameter: cat (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 2 parameters: GET:artist, GET:cat 
+                                                                                                                                                                       
+(GET):artist, cat
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: cat (GET) (body changed) 
+ [+] Found Parameter: artist (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 2 parameters: GET:cat, GET:artist 
+                                                                                                                                                                       
+(GET):cat, artist
+ 
+                                                                                                                                                                       
+__________                    __________                __                                                                                                             
+\______   \_____ ____________ \______   \__ __  _______/  |_  ___________                                                                                              
+ |     ___/\__  \\_  __ \__  \ |    |  _/  |  \/  ___/\   __\/ __ \_  __ \                                                                                             
+ |    |     / __ \|  | \// __ \|    |   \  |  /\___ \  |  | \  ___/|  | \/                                                                                             
+ |____|    (____  /__|  (____  /______  /____//____  > |__|  \___  >__|                                                                                                
+                \/           \/       \/           \/            \/                                                                                                    
+                                                                                                                                                                       
+ [!] Testing connection 
+ [+] Adding form values to queue: [searchFor goButton] 
+ [!] Starting Auto Calibration (GET) 
+ [!] Content is stable 
+ [!] Running (GET)... 
+
+ [+] Found Parameter: cat (GET) (body changed) 
+ [+] Found Parameter: artist (GET) (body changed) 
+ [!] Starting Auto Calibration (POST) 
+ [!] Content is stable 
+ [!] Running (POST)... 
+
+ [!] Found 2 parameters: GET:cat, GET:artist 
+                                                                                                                                                                       
+(GET):cat, artist

@@ -1,0 +1,13 @@
+to fuzz domain usinf ffuf
+└─$ ffuf -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-small.txt -u http://testphp.vulnweb.com/FUZZ -mc all -fc 404,403,302 -o urls
+
+then use this pythin code
+	>>> import json
+	>>> f = open("/tmp/urls")
+	>>> data = json.load(f)
+	>>> data['results']
+	>>> for d in data['results']:
+	        print(d['url'])
+
+to fuzz the paramaters use go script
+└─$ ./main find -w ../burp-parameter-names.txt -u http://testphp.vulnweb.com                         #make aloop on endpoint_files and replace -u <>
